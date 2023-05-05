@@ -1,4 +1,5 @@
 body{
+    color: #1f2937;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -68,6 +69,7 @@ ul {
 
 .hero-subtext {
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .signup-button {
@@ -83,10 +85,55 @@ ul {
 }
 
 .hero-image {
-    background-color: gray;
+    background-color:rgb(156, 157, 172);
     width: 450px;
     height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    padding: 50px 0;
+}
+
+.cubes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.cube-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blue-cube {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.cube-text {
+    color: rgb(83, 83, 83);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
 }
